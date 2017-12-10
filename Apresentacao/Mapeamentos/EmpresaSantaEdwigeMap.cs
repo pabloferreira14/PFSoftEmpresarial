@@ -1,0 +1,38 @@
+﻿using Apresentacao.Modelos;
+using System;
+using System.Collections.Generic;
+using System.Data.Entity.ModelConfiguration;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Apresentacao.Mapeamentos
+{
+    public class EmpresaSantaEdwigeMap : EntityTypeConfiguration<EmpresaSantaEdwige>
+    {
+        public EmpresaSantaEdwigeMap()
+        {
+            ToTable("EmpresaSantaEdwiges");
+
+            HasKey<int>(p => p.EmpresaID);
+            Property(p => p.EmpresaID).HasDatabaseGeneratedOption(System.ComponentModel.DataAnnotations.Schema.DatabaseGeneratedOption.Identity);
+
+            Property(p => p.Nome).HasMaxLength(80).HasColumnType("varchar").IsRequired();
+            Property(p => p.DataCadastro).HasColumnType("DateTime").IsRequired();
+            Property(p => p.NomeFantasia).HasMaxLength(40).HasColumnType("varchar").IsOptional();
+            Property(p => p.Endereco).HasMaxLength(60).HasColumnType("varchar").IsRequired();
+            Property(p => p.Numero).HasColumnType("int").IsRequired();
+            Property(p => p.Bairro).HasMaxLength(60).HasColumnType("varchar").IsRequired();
+            Property(p => p.Cep).HasMaxLength(10).HasColumnType("varchar").IsRequired();
+            Property(p => p.Telefone1).HasMaxLength(15).HasColumnType("varchar").IsRequired();
+            Property(p => p.Telefone2).HasMaxLength(15).HasColumnType("varchar").IsOptional();
+            Property(p => p.Telefone3).HasMaxLength(15).HasColumnType("varchar").IsOptional();
+            Property(p => p.Cnpj).HasMaxLength(20).HasColumnType("varchar").IsRequired();
+            Property(p => p.IE).HasMaxLength(20).HasColumnType("varchar").IsRequired();
+            Property(p => p.Email).HasMaxLength(20).HasColumnType("varchar").IsRequired();
+
+            
+        }
+
+    }
+}

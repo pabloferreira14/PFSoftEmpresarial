@@ -1,0 +1,17 @@
+C:\Users\Pablo Ferreira\source\repos\PFSoftEmpresarial\Apresentacao\bin\Debug\Apresentacao.exe.config
+C:\Users\Pablo Ferreira\source\repos\PFSoftEmpresarial\Apresentacao\bin\Debug\Apresentacao.exe
+C:\Users\Pablo Ferreira\source\repos\PFSoftEmpresarial\Apresentacao\bin\Debug\Apresentacao.pdb
+C:\Users\Pablo Ferreira\source\repos\PFSoftEmpresarial\Apresentacao\bin\Debug\EntityFramework.dll
+C:\Users\Pablo Ferreira\source\repos\PFSoftEmpresarial\Apresentacao\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Pablo Ferreira\source\repos\PFSoftEmpresarial\Apresentacao\bin\Debug\System.Windows.Forms.Ribbon35.dll
+C:\Users\Pablo Ferreira\source\repos\PFSoftEmpresarial\Apresentacao\bin\Debug\EntityFramework.xml
+C:\Users\Pablo Ferreira\source\repos\PFSoftEmpresarial\Apresentacao\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Pablo Ferreira\source\repos\PFSoftEmpresarial\Apresentacao\obj\Debug\Empresarial.FrmCliente.resources
+C:\Users\Pablo Ferreira\source\repos\PFSoftEmpresarial\Apresentacao\obj\Debug\Empresarial.FrmLogin.resources
+C:\Users\Pablo Ferreira\source\repos\PFSoftEmpresarial\Apresentacao\obj\Debug\Empresarial.FrmPrincipal.resources
+C:\Users\Pablo Ferreira\source\repos\PFSoftEmpresarial\Apresentacao\obj\Debug\Empresarial.FrmUsuario.resources
+C:\Users\Pablo Ferreira\source\repos\PFSoftEmpresarial\Apresentacao\obj\Debug\Apresentacao.Properties.Resources.resources
+C:\Users\Pablo Ferreira\source\repos\PFSoftEmpresarial\Apresentacao\obj\Debug\Empresarial.csproj.GenerateResource.Cache
+C:\Users\Pablo Ferreira\source\repos\PFSoftEmpresarial\Apresentacao\obj\Debug\Empresarial.csproj.CoreCompileInputs.cache
+C:\Users\Pablo Ferreira\source\repos\PFSoftEmpresarial\Apresentacao\obj\Debug\Apresentacao.exe
+C:\Users\Pablo Ferreira\source\repos\PFSoftEmpresarial\Apresentacao\obj\Debug\Apresentacao.pdb
