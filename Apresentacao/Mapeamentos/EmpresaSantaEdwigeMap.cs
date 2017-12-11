@@ -18,6 +18,7 @@ namespace Apresentacao.Mapeamentos
             Property(p => p.EmpresaID).HasDatabaseGeneratedOption(System.ComponentModel.DataAnnotations.Schema.DatabaseGeneratedOption.Identity);
 
             Property(p => p.Nome).HasMaxLength(80).HasColumnType("varchar").IsRequired();
+            Property(p => p.Chave).HasMaxLength(30).HasColumnType("varchar").IsRequired();
             Property(p => p.DataCadastro).HasColumnType("DateTime").IsRequired();
             Property(p => p.NomeFantasia).HasMaxLength(40).HasColumnType("varchar").IsOptional();
             Property(p => p.Endereco).HasMaxLength(60).HasColumnType("varchar").IsRequired();

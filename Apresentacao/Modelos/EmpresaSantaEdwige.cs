@@ -9,6 +9,7 @@ namespace Apresentacao.Modelos
     public class EmpresaSantaEdwige
     {
         public int EmpresaID { get; set; }
+        public string Chave { get; set; }
         public DateTime? DataCadastro { get; set; }
         public string Nome { get; set; }
         public string NomeFantasia { get; set; }
