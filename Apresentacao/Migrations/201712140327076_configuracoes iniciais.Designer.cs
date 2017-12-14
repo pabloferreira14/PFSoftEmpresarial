@@ -7,13 +7,13 @@ namespace Apresentacao.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.2.0-61023")]
-    public sealed partial class Primeirocommit : IMigrationMetadata
+    public sealed partial class configuracoesiniciais : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(Primeirocommit));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(configuracoesiniciais));
         
         string IMigrationMetadata.Id
         {
-            get { return "201712110138464_Primeiro commit"; }
+            get { return "201712140327076_configuracoes iniciais"; }
         }
         
         string IMigrationMetadata.Source

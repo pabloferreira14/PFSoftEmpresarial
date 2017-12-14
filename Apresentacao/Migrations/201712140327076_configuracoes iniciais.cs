@@ -3,7 +3,7 @@ namespace Apresentacao.Migrations
     using System;
     using System.Data.Entity.Migrations;
     
-    public partial class Primeirocommit : DbMigration
+    public partial class configuracoesiniciais : DbMigration
     {
         public override void Up()
         {
@@ -68,10 +68,23 @@ namespace Apresentacao.Migrations
                     })
                 .PrimaryKey(t => t.UsuarioID);
             
+            CreateTable(
+                "dbo.ConfiguracoesIniciais",
+                c => new
+                    {
+                        ConfiguracoesIniciaisID = c.Int(nullable: false, identity: true),
+                        DataSource = c.String(nullable: false, maxLength: 50, unicode: false),
+                        Banco = c.String(nullable: false, maxLength: 20, unicode: false),
+                        Usuario = c.String(nullable: false, maxLength: 20, unicode: false),
+                        Senha = c.String(nullable: false, maxLength: 20, unicode: false),
+                    })
+                .PrimaryKey(t => t.ConfiguracoesIniciaisID);
+            
         }
         
         public override void Down()
         {
+            DropTable("dbo.ConfiguracoesIniciais");
             DropTable("dbo.Usuarios");
             DropTable("dbo.EmpresaSantaEdwiges");
             DropTable("dbo.EmpresaQuingrax");

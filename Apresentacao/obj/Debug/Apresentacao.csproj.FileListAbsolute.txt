@@ -22,8 +22,9 @@ C:\Users\Pablo Ferreira\Desktop\PFSoftEmpresarial\Apresentacao\bin\Debug\EntityF
 C:\Users\Pablo Ferreira\Desktop\PFSoftEmpresarial\Apresentacao\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\Pablo Ferreira\Desktop\PFSoftEmpresarial\Apresentacao\bin\Debug\EntityFramework.xml
 C:\Users\Pablo Ferreira\Desktop\PFSoftEmpresarial\Apresentacao\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\Pablo Ferreira\Desktop\PFSoftEmpresarial\Apresentacao\obj\Debug\Apresentacao.csprojResolveAssemblyReference.cache
 C:\Users\Pablo Ferreira\Desktop\PFSoftEmpresarial\Apresentacao\obj\Debug\Apresentacao.FrmCliente.resources
+C:\Users\Pablo Ferreira\Desktop\PFSoftEmpresarial\Apresentacao\obj\Debug\Apresentacao.FrmConfiguracoesIniciais.resources
+C:\Users\Pablo Ferreira\Desktop\PFSoftEmpresarial\Apresentacao\obj\Debug\Apresentacao.FrmContato.resources
 C:\Users\Pablo Ferreira\Desktop\PFSoftEmpresarial\Apresentacao\obj\Debug\Apresentacao.FrmLogin.resources
 C:\Users\Pablo Ferreira\Desktop\PFSoftEmpresarial\Apresentacao\obj\Debug\Apresentacao.FrmPrincipal.resources
 C:\Users\Pablo Ferreira\Desktop\PFSoftEmpresarial\Apresentacao\obj\Debug\Apresentacao.FrmUsuario.resources
@@ -32,4 +33,5 @@ C:\Users\Pablo Ferreira\Desktop\PFSoftEmpresarial\Apresentacao\obj\Debug\Apresen
 C:\Users\Pablo Ferreira\Desktop\PFSoftEmpresarial\Apresentacao\obj\Debug\Apresentacao.csproj.CoreCompileInputs.cache
 C:\Users\Pablo Ferreira\Desktop\PFSoftEmpresarial\Apresentacao\obj\Debug\Apresentacao.exe
 C:\Users\Pablo Ferreira\Desktop\PFSoftEmpresarial\Apresentacao\obj\Debug\Apresentacao.pdb
-C:\Users\Pablo Ferreira\Desktop\PFSoftEmpresarial\Apresentacao\obj\Debug\Apresentacao.Migrations.Primeirocommit.resources
+C:\Users\Pablo Ferreira\Desktop\PFSoftEmpresarial\Apresentacao\obj\Debug\Apresentacao.Migrations.configuracoesiniciais.resources
+C:\Users\Pablo Ferreira\Desktop\PFSoftEmpresarial\Apresentacao\obj\Debug\Apresentacao.csprojResolveAssemblyReference.cache

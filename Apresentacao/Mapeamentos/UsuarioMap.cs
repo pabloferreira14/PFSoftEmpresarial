@@ -15,7 +15,7 @@ namespace Apresentacao.Mapeamentos
         {
             ToTable("Usuarios");
 
-            HasKey<int>(p => p.UsuarioID); 
+            HasKey(p => p.UsuarioID); 
             Property(p => p.UsuarioID).HasDatabaseGeneratedOption(System.ComponentModel.DataAnnotations.Schema.DatabaseGeneratedOption.Identity);
             
             Property(p => p.Nome).HasMaxLength(80).HasColumnType("varchar").IsRequired();

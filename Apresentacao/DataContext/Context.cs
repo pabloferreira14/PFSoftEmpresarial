@@ -12,7 +12,7 @@ namespace Apresentacao.DataContext
 {
     public class Context : DbContext
     {
-        public Context() : base("name = MyConnectionString") //parâmetro da connection string
+        public Context() : base("name = MyConnectionString") 
         {
             Configuration.LazyLoadingEnabled = false; //mecanismo que faz com que carregue automaticamente os relacionamentos em memória - perda de perfomace
             Configuration.ProxyCreationEnabled = false; //por padrão cria um proxy toda vez que é instanciado uma entidade POCO
@@ -21,6 +21,7 @@ namespace Apresentacao.DataContext
         public DbSet<Usuario> Usuarios { get; set; }
         public DbSet<EmpresaSantaEdwige> EmpresaSantaEdwiges { get; set; }
         public DbSet<EmpresaQuingrax> EmpresaQuingrax { get; set; }
+        public DbSet<ConfiguracoesIniciais> ConfiguracoesIniciais { get; set; }
 
 
 
@@ -41,6 +42,7 @@ namespace Apresentacao.DataContext
             modelBuilder.Configurations.Add(new UsuarioMap());
             modelBuilder.Configurations.Add(new EmpresaSantaEdwigeMap());
             modelBuilder.Configurations.Add(new EmpresaQuingraxMap());
+            modelBuilder.Configurations.Add(new ConfiguracoesIniciaisMap());
 
             base.OnModelCreating(modelBuilder);
         }
