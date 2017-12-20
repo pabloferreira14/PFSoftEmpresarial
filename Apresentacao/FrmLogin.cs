@@ -27,7 +27,7 @@ namespace Apresentacao
 
             BuscaParametroIniciais();
 
-            InitializeComponent();
+            InitializeComponent(); //
         }
 
         #region Busca Parametros iniciais do sistema
